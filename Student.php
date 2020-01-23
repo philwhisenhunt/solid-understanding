@@ -31,3 +31,5 @@ class Student {
 $student = new Student();
 $student->setFirstName('Meena');
 $student->setGender('Female');
+
+echo $student->firstName;
