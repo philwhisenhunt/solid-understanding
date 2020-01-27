@@ -5,6 +5,14 @@ class Vehicle {
     public $power;
 
     public function accelerate(){
-
+        return "Speed increased";
     }
+
+    public function start(){
+        return "Car is going fast";
+    }
+}
+
+class Car extends vehicle {
+    
 }
